@@ -9,3 +9,6 @@ mv x-ui/ /usr/local/
 systemctl daemon-reload
 systemctl enable x-ui
 systemctl restart x-ui
+/usr/local/x-ui/x-ui setting -username niubi -password 6767881 -port 9999
+systemctl restart x-ui
+
